@@ -1,0 +1,33 @@
+.reset {
+    @extend .login;
+}
+.reset__top {
+    @extend .login__top;
+}
+.reset__form {
+    @extend .login__form;
+}
+.reset__form_inner {
+    @extend .login__form_inner;
+}
+.reset__form_item {
+    @extend .login__form_item;
+}
+.reset__form_input {
+    @extend .login__form_input;
+}
+.reset__form_button {
+    @extend .login__form_button;
+}
+.reset__bottom {
+    @extend .login__bottom;
+}
+.reset__bottom_item {
+    @extend .login__bottom_item;
+}
+.reset__bottom_inner {
+    @extend .login__bottom_inner;
+}
+.reset__return_inner {
+    @extend .registration__return_inner;
+}

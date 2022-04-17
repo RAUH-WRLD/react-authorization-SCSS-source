@@ -1,0 +1,36 @@
+.registration {
+    @extend .login;
+}
+.registration__top {
+    @extend .login__top;
+}
+.registration__bottom {
+    @extend .login__bottom;
+}
+.registration__form {
+    @extend .login__form;
+}
+.registration__form_item {
+    @extend .login__form_item;
+}
+.registration__form_input {
+    @extend .login__form_input;
+}
+.registration__form_inner {
+    @extend .login__form_inner;
+}
+.registration__form_button {
+    @extend .login__form_button;
+}
+.registration__reset_inner {
+    @extend .login__reset_inner;
+}
+.registration__bottom_item {
+    @extend .login__bottom_item;
+}
+.registration__bottom_inner:last-child {
+    @extend .login__bottom_inner:last-child;
+}
+.registration__return_inner {
+    @extend .login__reset_inner;
+}

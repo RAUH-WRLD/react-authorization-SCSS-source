@@ -1,0 +1,15 @@
+.unavailable {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Open Sans", sans-serif;
+    padding: 25px;
+}
+.unavailable__item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.unavailable__item_inner {
+    text-align: center;
+}

@@ -1,0 +1,46 @@
+.failed {
+    @extend .login;
+}
+.failed__top {
+    @extend .login__top;
+}
+.failed__bottom {
+    @extend .login__bottom;
+}
+.failed__button {
+    @extend .login__form_button;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.failed__reset {
+    @extend .login__reset_inner;
+}
+.failed__info {
+    @extend .login__form;
+    text-align: center;
+}
+.failed__bottom_item {
+    @extend .login__bottom_item;
+}
+.failed__bottom_inner:last-child {
+    @extend .login__bottom_inner:last-child;
+}
+.failed__reason {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 180px;
+    font-size: 30px;
+    color: $white;
+    line-height: 50px;
+    font-weight: 500;
+    text-align: center;
+    background: $white-very-very-very-low;
+    margin-bottom: 40px;
+}
+.failed__reason_inner:first-child {
+    color: $red;
+    font-weight: 800;
+}

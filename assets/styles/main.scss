@@ -1,0 +1,10 @@
+//base styles
+@import "./sass/utils/_variables.scss";
+@import "./sass/base/_reset.scss";
+//pages
+@import "./sass/pages/_unavailable.scss";
+@import "./sass/pages/_failed.scss";
+@import "./sass/pages/_success.scss";
+@import "./sass/pages/_login.scss";
+@import "./sass/pages/_registration.scss";
+@import "./sass/pages/_reset.scss";

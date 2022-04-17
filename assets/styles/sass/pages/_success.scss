@@ -1,0 +1,28 @@
+.success {
+    @extend .failed;
+}
+.success__top {
+    @extend .failed__top;
+}
+.success__bottom {
+    @extend .failed__bottom;
+}
+.success__button {
+    @extend .failed__button;
+}
+.success__info {
+    @extend .failed__info;
+}
+.success__bottom_item {
+    @extend .failed__bottom_item;
+}
+.success__bottom_inner:last-child {
+    @extend .failed__bottom_inner:last-child;
+}
+.success__reason {
+    @extend .failed__reason;
+}
+.success__reason_inner:first-child {
+    @extend .failed__reason_inner:first-child;
+    color: $green;
+}
